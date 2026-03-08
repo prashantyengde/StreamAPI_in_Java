@@ -1,4 +1,4 @@
-package list;
+package claude.StreamOperation;
 
 import java.util.*;
 import java.util.stream.*;
@@ -13,7 +13,7 @@ public class StringStreamOperations {
         System.out.println("=".repeat(55));
         System.out.println("  Input String: \"" + fullName + "\"");
         System.out.println("=".repeat(55));
-
+      
         // 1. COUNT CAPITAL LETTERS
         System.out.println("\n1. Capital Letter Count:");
         long capitalCount = fullName.chars()
@@ -204,28 +204,49 @@ public class StringStreamOperations {
     }
 }
 /*
- * ```
- * 
- * ---
- * 
- * ### Output ``` ======================================================= Input
- * String: "Prashant Balasaheb Yengde"
- * =======================================================
- * 
- * 1. Capital Letter Count = 3 2. Capital Letters = P B Y 3. Lowercase Letter
- * Count = 19 4. Vowel Count = 9 5. All Vowels = a a a a a e e e 6. Consonant
- * Count = 13 7. Space Count = 2 8. Total Characters (spaces) = 25 9. Total
- * Characters (no space) = 23 10. UPPERCASE → PRASHANT BALASAHEB YENGDE 11.
- * lowercase → prashant balasaheb yengde 12. Reversed → edgneY behasalaB
- * tnahsarP 13. Distinct Chars → P r a s h n t B l e b Y g d 14. Distinct Count
- * = 15 15. Sorted → BBPYaaaaabdeeeghhlnnrsstt 16. Words → Prashant → Balasaheb
- * → Yengde 17. Word Count = 3 18. Prashant→8 Balasaheb→9 Yengde→6 19. Longest
- * Word → Balasaheb 20. Shortest Word → Yengde 21. PRASHANT BALASAHEB YENGDE 22.
+*```**---**###Output```=======================================================Input*String:"Prashant Balasaheb Yengde"*=======================================================**1.
+
+Capital Letter Count=3 2.
+Capital Letters = P B Y 3.
+Lowercase Letter*Count=19 4.
+Vowel Count = 9 5.
+All Vowels =
+a a
+a a
+a e
+e e 6. Consonant*Count=13 7.
+Space Count = 2 8.
+
+Total Characters (spaces) = 25 9. Total
+ *
+
+Characters (no space) = 23 
+10.
+ UPPERCASE → PRASHANT BALASAHEB YENGDE
+  11.
+ * lowercase → prashant balasaheb yengde 
+ * 12. Reversed → edgneY behasalaB
+ * tnahsarP
+ *  13. Distinct Chars → P r a s h n t B l e b Y g d 
+. Distinct Count
+ * = 15 
+ * 15. Sorted → BBPYaaaaabdeeeghhlnnrsstt 
+ * 16. Words → Prashant → Balasaheb
+ * → Yengde 
+ * 17. Word Count = 3 
+ * 18. Prashant→8 Balasaheb→9 Yengde→6 
+ * 19. Longest
+ * Word → Balasaheb 
+ * 20. Shortest Word → Yengde 
+ * 21. PRASHANT BALASAHEB YENGDE
+ *  22.
  * Frequency → a=5 B=1 b=1 d=1 e=3 g=1 h=2 ...
  * ======================================================= SUMMARY
  * ======================================================= Total Characters
- * (with space) : 25 Total Characters (no space) : 23 Capital Letters : 3
+ * (with space) : 25
+
+Total Characters (no space) : 23 Capital Letters : 3
  * Lowercase Letters : 19 Vowels : 9 Consonants : 13 Spaces : 2 Words : 3
  * Distinct Characters : 15
  * =======================================================
- */
+*/

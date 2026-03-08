@@ -1,4 +1,4 @@
-package list;
+package claude.StreamOperation;
 
 import java.util.*;
 import java.util.stream.*;

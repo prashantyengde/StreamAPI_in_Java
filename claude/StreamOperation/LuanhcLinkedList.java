@@ -1,4 +1,4 @@
-package list;
+package claude.StreamOperation;
 import java.util.LinkedList;
 
 public class LuanhcLinkedList
