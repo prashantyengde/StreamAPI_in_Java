@@ -65,6 +65,6 @@ public class Demo {
         //String str = sc.nextLine();
 
         Demo demo = new Demo();
-        demo.countCharacter("PpPrPaaPsr5558777grfff5  ippp555");
+        demo.countCharacter("PpPrPaaPsr5558777grfff5   ippp555");
     }
 }

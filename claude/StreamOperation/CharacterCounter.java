@@ -26,6 +26,9 @@ public class CharacterCounter {   // renamed class
                    .collect(Collectors.groupingBy(c -> c));
 
         System.out.println(map);
+        map.forEach((c, f) -> {
+            System.out.println(c + " -> " + f);
+        });
     }
 
     public static void main(String[] args) {
