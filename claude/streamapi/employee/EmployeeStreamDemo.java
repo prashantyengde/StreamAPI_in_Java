@@ -89,7 +89,7 @@ public class EmployeeStreamDemo {
 		System.out.println("\n13. All Names Joined:");
 		String joined = employees.stream().map(e -> e.name).collect(Collectors.joining(" | "));
 		System.out.println("  " + joined);
-
+          
 		// 14. DISTINCT CITIES
 		System.out.println("\n14. Distinct Cities:");
 		employees.stream().map(e -> e.city).distinct().forEach(city -> System.out.println("  " + city));
